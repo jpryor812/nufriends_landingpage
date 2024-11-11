@@ -31,7 +31,6 @@ export default function Home() {
       <Whynufriends />
       <ChatWidget />
       <EmailSignup3 /> 
-      <OurPromise />
     </main>
   )
 }

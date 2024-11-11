@@ -16,7 +16,7 @@ export default function EmailSignup() {
             Save My Spot
           </button>
         </form>
-        <p className="signup-disclaimer">We are in final stages of testing and hope to launch in December. Sign up for the waitlist to be notified of our launch and receveie exclusive perks!</p>
+        <p className="signup-disclaimer">We are in final stages of testing and hope to launch in December. Sign up for the waitlist to be notified of our launch and receveie exclusive "founding member" perks!</p>
       </div>
     )
   }

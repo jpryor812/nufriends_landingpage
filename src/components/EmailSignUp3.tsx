@@ -2,7 +2,7 @@
 export default function EmailSignup3() {
     return (
       <div className="signup-container">
-        <p className="signup-subtitle">Embrace your Inner You!!</p>
+        <p className="signup-subtitle">Find Your New Friends!</p>
         
         <form className="signup-form">
           <input
