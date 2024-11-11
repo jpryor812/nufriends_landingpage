@@ -1,21 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    to bottom,
+    #EBF7FF 0%,
+    #ffffff 30%,
+    #EBF7FF 50%,
+    #ffffff 70%,
+    #EBF7FF 100%
+  );
+  min-height: 100vh;
+  background-size: 100% 300%;
+  animation: gradientAnimation 15s ease-in-out infinite alternate;
+}
+.hero-section {
+  text-align: center;
+  padding: 1rem .5rem;
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-family: 'Suez One', serif;
+  font-weight: bold;
+  color: #59B6F2;
+  text-shadow: 
+  -1px -1px 0 white,  /* Top-left */
+   1px -1px 0 white,  /* Top-right */
+  -1px  1px 0 white,  /* Bottom-left */
+   1px  1px 0 white;  /* Bottom-right */
+}
+
+.feature {
+  font-size: 1rem;
+  color: #59B6F2;
+}
+
+.demo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.demo-image {
+  height: auto;
+}
+.signup-container {
+  max-width: 500px;
+  margin: .25rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.signup-title {
+  font-size: 1.5rem;
+  color: #00bcef;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-family: 'Suez One', serif;
+
+}
+
+.signup-subtitle {
+  color: #00bcef;
+  margin-bottom: .75rem;
+  font-family: 'Suez One', serif;
+  font-weight: 200;
+  font-size: 1.2rem;  
+}
+
+.signup-form {
+  display: flex;
+  gap: 0.1rem;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.email-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 2px solid #54b6f7;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+  height: 2.5rem;
+}
+
+.email-input:focus {
+  border-color: #54b6f7;
+  box-shadow: 0 0 0 2px rgba(89, 182, 242, 0.1);
+}
+
+.signup-button {
+  background-color: #54b6f7;
+  color: white;
+  padding: 0.25rem .25rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  height: 2.5rem;
+  font-size: .8rem;
+}
+
+.signup-button:hover {
+  background-color: #3490dc;
+}
+.signup-disclaimer{
+  font-size: .65rem;
+  margin-bottom: -1rem;
+}
+
+.nufriends-description-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.nufriends-intro {
+  padding: .25rem;
+  text-align: center;
+  font-family: 'Suez One', serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #54b6f7;
+}
+.nufriends-description {
+  padding: .25rem 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #626262;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.answer-questions-container, .help-from-yu-container, .yu-in-real-world-container {
+  display: flex;
+  flex-direction: row;
+  gap: .5rem; /* Adds space between image and text */
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.AQ-text, .help-from-yu-text, .yu-in-real-world-text {
+  flex: 0.4; /* Fixed syntax */
+  font-size: 1rem;
+  color: #54b6f7;
+  font-weight: 200;
+  display: flex;
+  margin-top: 3rem;; /* Vertically centers the text */
+  text-align: center;
+  margin-right: 2rem;
+  font-family: 'Suez One', serif
+}
+.AQ-demo, .help-from-yu-demo, .yu-in-real-world-demo {
+  flex: .6;
+  transform: rotate(-6deg); /* Rotates 5 degrees counter-clockwise */
+  margin-left: 2rem;
+}
+.start-conversation-container, .growing-friendships-container {
+  display: flex;
+  flex-direction: row;
+  gap: .5rem; /* Adds space between image and text */
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.start-conversation-text, .growing-friendships-text {
+  flex: 0.4; /* Fixed syntax */
+  font-size: 1rem;
+  color: #54b6f7;
+  font-weight: 200;
+  display: flex;
+  margin-top: 3rem;; /* Vertically centers the text */
+  text-align: center;
+  margin-left: 2rem;
+  font-family: 'Suez One', serif
+}
+.start-conversation-demo, .growing-friendships-demo {
+  flex: .6;
+  transform: rotate(6deg); /* Rotates 5 degrees counter-clockwise */
+  margin-right: 1rem;
+}
+.signup-container {
+  max-width: 500px;
+  padding: 2rem;
+  text-align: center;
+  margin-top: -.5rem;
+}
+.chat-widget {
+  position: fixed;
+  bottom: 2rem;
+  right: .75rem;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.chat-button {
+  background-color: #42aaff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: .75rem .75rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+.chat-button:hover {
+  transform: translateY(-2px);
+}
+
+.chat-icon {
+  font-size: 1.2rem;
+}
+
+.chat-content {
+  position: absolute;
+  bottom: calc(100% + 1rem);
+  right: 0;
+  width: 300px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  display: none;
+  overflow: hidden;
+  transition: opacity 0.3s, transform 0.3s;
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+}
+
+.chat-content.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.chat-header {
+  background: #42aaff;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0;
+}
+
+.chat-body {
+  padding: 1.25rem;
+  line-height: 1.5;
+}
+
+.chat-body p {
+  margin: 0 0 1rem 0;
+}
+
+.chat-body a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.chat-body a:hover {
+  text-decoration: underline;
+}
+.chat-label {
+  font-size: .8rem;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+}
+.justin-image {
+  border-radius: 25px;
+  margin-top: -.5rem;
+  margin-bottom: .5rem;
+}
+.promise-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.promise-container ol {
+  padding-left: 40px;
+}
+
+.promise-container li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.promise-header{
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #54b6f7;
+  font-family: 'Suez One', serif;
+  text-align: center;
 }
