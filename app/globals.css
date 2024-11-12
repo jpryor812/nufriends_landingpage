@@ -28,7 +28,7 @@ body {
 }
 .hero-section {
   text-align: center;
-  padding: 1rem .5rem;
+  padding: .75rem .75rem;
 }
 
 .hero-title {
@@ -370,4 +370,50 @@ body {
   margin-left: 0.5rem;
   margin-bottom: -3rem;  /* Slight tilt for authenticity */
 
+}
+.phone-container {
+  width: 100%;
+  max-width: 260px;  /* Adjust based on your needs */
+  margin: .1rem auto;
+  padding: 10px;
+}
+.phone-frame {
+  position: relative;
+  background: #1a1a1a;
+  border-radius: 50px;
+  padding: 12px;
+  box-shadow: 
+    0 0 0 2px #2a2a2a,
+    inset 0 0 5px rgba(0, 0, 0, 0.5),
+    0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Power button */
+.phone-frame::before {
+  content: '';
+  position: absolute;
+  right: -3px;
+  top: 100px;
+  width: 3px;
+  height: 40px;
+  background: #2a2a2a;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Volume buttons */
+.phone-frame::after {
+  content: '';
+  position: absolute;
+  left: -3px;
+  top: 80px;
+  width: 3px;
+  height: 80px;
+  background: #2a2a2a;
+  border-radius: 3px 0 0 3px;
+}
+.phone-screen {
+  width: 100%;
+  border-radius: 30px;
+  aspect-ratio: 9/19.5;  /* iPhone aspect ratio */
+  object-fit: cover;
 }

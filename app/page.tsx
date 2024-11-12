@@ -1,6 +1,5 @@
 import HeroTitle from '../src/components/HeroTitle';
 import Header from '../src/components/Header';
-import FeatureDemo from '@/src/components/FeatureDemo';
 import EmailSignup from '@/src/components/EmailSignUp';
 import WhatIsNufriends from '@/src/components/WhatIsNufriends';
 import AnswerQuestions from '@/src/components/AnswerQuestions';
@@ -12,14 +11,14 @@ import Whynufriends from '@/src/components/Whynufriends';
 import EmailSignup2 from '@/src/components/EmailSignUp2';
 import ChatWidget from '@/src/components/ChatWidget';
 import EmailSignup3 from '@/src/components/EmailSignUp3';
-import OurPromise from '@/src/components/OurPromise';
+import HeroVideo from '@/src/components/HeroVideo';
 
 export default function Home() {
   return (
     <main>
       <Header />
       <HeroTitle />
-      <FeatureDemo />
+      <HeroVideo />
       <EmailSignup />
       <WhatIsNufriends />
       <AnswerQuestions />
