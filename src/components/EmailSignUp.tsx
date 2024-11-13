@@ -13,10 +13,10 @@ export default function EmailSignup() {
             required
           />
           <button type="submit" className="signup-button">
-            Save My Spot
+            Save My Spot!!
           </button>
         </form>
-        <p className="signup-disclaimer">We are in final stages of testing and hope to launch in December. Sign up for the waitlist to be notified of our launch and receive exclusive &quot;founding member&quot; perks!</p>
+        <p className="signup-disclaimer">We are in final stages of testing and hope to launch in December. Sign up for the waitlist to be notified of our launch and receive exclusive ~founding member~ perks!</p>
       </div>
     )
   }

@@ -11,6 +11,7 @@ import Whynufriends from '@/src/components/Whynufriends';
 import EmailSignup2 from '@/src/components/EmailSignUp2';
 import ChatWidget from '@/src/components/ChatWidget';
 import EmailSignup3 from '@/src/components/EmailSignUp3';
+import Footer from '@/src/components/Footer';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Whynufriends />
       <ChatWidget />
       <EmailSignup3 /> 
+      <Footer />
     </main>
   )
 }

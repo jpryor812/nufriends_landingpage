@@ -12,7 +12,7 @@ export default function EmailSignup3() {
             required
           />
           <button type="submit" className="signup-button">
-            Save My Spot
+            Save My Spot!!
           </button>
         </form>
       </div>
