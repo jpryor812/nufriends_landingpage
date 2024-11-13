@@ -16,25 +16,38 @@
 body {
   background: linear-gradient(
     to bottom,
-    #EBF7FF 0%,
+    #eff9ff 0%,
     #ffffff 30%,
-    #EBF7FF 50%,
+    #eff9ff 50%,
     #ffffff 70%,
-    #EBF7FF 100%
+    #eff9ff 100%
   );
   min-height: 100vh;
   background-size: 100% 300%;
   animation: gradientAnimation 15s ease-in-out infinite alternate;
 }
+.header-container{
+  display: flex;
+  flex: row;
+}
+.header-title {
+  font-size: 1rem;
+  color: #59B6F2;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-family: 'Suez One', serif;
+  margin-left: 1rem;
+}
 .hero-section {
   text-align: center;
-  padding: .75rem .75rem;
+  padding: .5rem .5rem;
 }
-
 .hero-title {
   font-size: 2rem;
+  margin-top: .5rem;
+  line-height: 1.25;
   font-family: 'Suez One', serif;
-  font-weight: bold;
+  font-weight: 500;
   color: #59B6F2;
   text-shadow: 
   -1px -1px 0 white,  /* Top-left */
@@ -43,29 +56,16 @@ body {
    1px  1px 0 white;  /* Bottom-right */
 }
 
-.feature {
-  font-size: 1rem;
-  color: #59B6F2;
-}
-
-.demo-container {
-  display: flex;
-  justify-content: center;
-}
-
-.demo-image {
-  height: auto;
-}
 .signup-container {
   max-width: 500px;
   margin: .25rem auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
 .signup-title {
   font-size: 1.5rem;
-  color: #00bcef;
+  color: #59B6F2;
   margin-bottom: 0.25rem;
   font-weight: 600;
   font-family: 'Suez One', serif;
@@ -73,7 +73,7 @@ body {
 }
 
 .signup-subtitle {
-  color: #00bcef;
+  color: #59B6F2;
   margin-bottom: .75rem;
   font-family: 'Suez One', serif;
   font-weight: 200;
@@ -140,10 +140,10 @@ body {
 .nufriends-description {
   padding: .25rem 1rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: .9rem;
   color: #626262;
   font-weight: 500;
-  margin-bottom: 2rem;
+  margin-bottom: .25rem;
 }
 .answer-questions-container, .help-from-yu-container, .yu-in-real-world-container {
   display: flex;
@@ -373,7 +373,7 @@ body {
 }
 .phone-container {
   width: 100%;
-  max-width: 260px;  /* Adjust based on your needs */
+  max-width: 240px;  /* Adjust based on your needs */
   margin: .1rem auto;
   padding: 10px;
 }
@@ -416,4 +416,65 @@ body {
   border-radius: 30px;
   aspect-ratio: 9/19.5;  /* iPhone aspect ratio */
   object-fit: cover;
+}
+
+
+@media (min-width: 640px) 
+{
+  .answer-questions-container, .help-from-yu-container, .yu-in-real-world-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-right: 7rem;
+    margin-left: 7rem;
+  }
+  
+  .AQ-text, .help-from-yu-text, .yu-in-real-world-text {
+    font-size: 1rem;
+    color: #54b6f7;
+    font-weight: 200;
+    display: flex;
+    margin-top: 3rem;; /* Vertically centers the text */
+    text-align: center;
+    margin-right: 2rem;
+    font-family: 'Suez One', serif
+  }
+  .AQ-demo, .help-from-yu-demo, .yu-in-real-world-demo {
+
+    transform: rotate(-6deg); /* Rotates 5 degrees counter-clockwise */
+    margin-left: 2rem;
+  }
+  .start-conversation-container, .growing-friendships-container {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem; /* Adds space between image and text */
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  
+  .start-conversation-text, .growing-friendships-text {
+  /* Fixed syntax */
+    font-size: 1rem;
+    color: #54b6f7;
+    font-weight: 200;
+    display: flex;
+    margin-top: 3rem;; /* Vertically centers the text */
+    text-align: center;
+    margin-left: 2rem;
+    font-family: 'Suez One', serif
+  }
+  .start-conversation-demo, .growing-friendships-demo {
+    flex: .6;
+    transform: rotate(6deg); /* Rotates 5 degrees counter-clockwise */
+    margin-right: 1rem;
+  }
+  .chat-widget {
+    position: fixed;
+    bottom: 2rem;
+    right: 1.5rem;
+    z-index: 1000;
+  }
 }

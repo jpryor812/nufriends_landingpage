@@ -2,10 +2,9 @@ export default function WhatIsNufriends() {
     return (
       <section className="nufriends-description-section">
         <h3 className="nufriends-intro">
-          What is nufriends??
         </h3>
         <p className="nufriends-description">
-          nufriends is the easiest way to make meaningful friendships in the world 👇 
+          We use AI to connect you with people who share your interests and values, but we don't leave you there. We're right by your side in every conversation to help you start and continue building those relationships. Scroll down to see how it works!👇
         </p>
       </section>
     )

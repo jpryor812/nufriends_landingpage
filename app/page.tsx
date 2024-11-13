@@ -11,16 +11,14 @@ import Whynufriends from '@/src/components/Whynufriends';
 import EmailSignup2 from '@/src/components/EmailSignUp2';
 import ChatWidget from '@/src/components/ChatWidget';
 import EmailSignup3 from '@/src/components/EmailSignUp3';
-import HeroVideo from '@/src/components/HeroVideo';
 
 export default function Home() {
   return (
     <main>
       <Header />
       <HeroTitle />
-      <HeroVideo />
-      <EmailSignup />
       <WhatIsNufriends />
+      <EmailSignup />
       <AnswerQuestions />
       <StartTheConversation />
       <HelpFromYu />
