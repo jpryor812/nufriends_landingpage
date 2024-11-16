@@ -192,7 +192,7 @@ h2.nufriends-description {
 .start-conversation-demo, .growing-friendships-demo {
   flex: .6;
   transform: rotate(6deg); /* Rotates 5 degrees counter-clockwise */
-  margin-right: 2rem;
+  margin-right: .5rem;
 }
 .signup-container {
   max-width: 500px;
@@ -474,7 +474,7 @@ h2.nufriends-description {
 }
 .social-links {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
   margin-top: 0.75rem;
 }
 
@@ -505,25 +505,18 @@ h2.nufriends-description {
     margin-bottom: 0.25rem;
     margin-top: 0.25rem;
   }
-  .hero-section {
-    text-align: center;
-    padding: .5rem .5rem;
-  }
   .hero-title {
     font-size: 3rem;
   }
   h2.nufriends-description {
     font-size: 1.05rem;
-    color: #4e4e4e;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-    margin-top: .5rem;
   }
   .signup-container {
     max-width: 600px;
     margin: .75rem auto;
     padding: 1rem;
-    text-align: center;
   }
   
   .signup-title {
@@ -533,47 +526,19 @@ h2.nufriends-description {
   }
   
   .signup-subtitle {
-    color: #59B6F2;
-    margin-bottom: .75rem;
-    font-family: 'Suez One', serif;
     font-weight: 300;
     font-size: 1.5rem;  
   }
   
   .signup-form {
-    display: flex;
     max-width: 520px;
-    margin: 0 auto;
   }
   
   .email-input {
-    flex: 1;
-    padding: 0.5rem;
-    border: 2px solid #54b6f7;
-    border-radius: 8px;
     font-size: 1rem;
     outline: none;
-    transition: border-color 0.2s;
-    height: 2.5rem;
   }
-  
-  .email-input:focus {
-    border-color: #54b6f7;
-    box-shadow: 0 0 0 2px rgba(89, 182, 242, 0.1);
-  }
-  
-  .signup-button {
-    background-color: #54b6f7;
-    color: white;
-    padding: 0.25rem .25rem;
-    border: none;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    height: 2.5rem;
-    font-size: .8rem;
-  }
+
   
   .signup-button:hover {
     background-color: #3490dc;
@@ -599,7 +564,7 @@ h2.nufriends-description {
   
   .AQ-text, .help-from-yu-text, .yu-in-real-world-text {
     flex: 0.4; /* Fixed syntax */
-    font-size: 1rem;
+    font-size: 3rem;
     color: #54b6f7;
     font-weight: 200;
     display: flex;
@@ -609,7 +574,7 @@ h2.nufriends-description {
     font-family: 'Suez One', serif
   }
   .AQ-demo, .help-from-yu-demo, .yu-in-real-world-demo {
-    flex: .6;
+    flex: .4;
     transform: rotate(-6deg); /* Rotates 5 degrees counter-clockwise */
     margin-left: 2rem;
   }
@@ -617,26 +582,24 @@ h2.nufriends-description {
     display: flex;
     flex-direction: row;
     gap: .5rem; /* Adds space between image and text */
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 1rem;
     margin-bottom: 3rem;
   }
   
   .start-conversation-text, .growing-friendships-text {
-    flex: 0.4; /* Fixed syntax */
     font-size: 1rem;
     color: #54b6f7;
     font-weight: 200;
     display: flex;
     margin-top: 3rem;; /* Vertically centers the text */
     text-align: center;
-    margin-left: 2rem;
-    font-family: 'Suez One', serif
+    padding-left: 8rem;
+    font-family: 'Suez One', serif;
   }
   .start-conversation-demo, .growing-friendships-demo {
-    flex: .6;
     transform: rotate(6deg); /* Rotates 5 degrees counter-clockwise */
-    margin-right: 1rem;
+    padding-left: 2rem;
   }
   .signup-container {
     max-width: 500px;

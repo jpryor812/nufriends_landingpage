@@ -9,8 +9,8 @@ export default function FeatureDemo() {
         <Image
           src="/nufriends_demo_holder.svg"
           alt="NuFriends App Demo"
-          width={200}
-          height={430}
+          width={180}
+          height={400}
           className="demo-image"
         />
       </div>

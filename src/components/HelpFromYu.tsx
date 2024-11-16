@@ -9,8 +9,8 @@ export default function HelpFromYu() {
         <Image
           src="/nufriends_demo_holder.svg"
           alt="NuFriends App Demo"
-          width={160}
-          height={320}
+          width={180}
+          height={400}
           className="demo-image"
         />
       </div>
