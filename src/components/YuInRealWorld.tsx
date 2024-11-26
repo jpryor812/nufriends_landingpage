@@ -9,8 +9,9 @@ export default function YuInRealWorld() {
         <Image
           src="/nufriends_demo_holder.svg"
           alt="NuFriends App Demo"
-          width={160}
-          height={320}
+          layout="responsive"
+          width={100} // Aspect ratio width
+          height={200} // Aspect ratio height
           className="demo-image"
         />
       </div>

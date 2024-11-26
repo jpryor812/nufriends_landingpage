@@ -2,7 +2,7 @@
 export default function EmailSignup2() {
     return (
       <div className="signup-container">
-        <p className="signup-subtitle">Join The Waitlist</p>
+        <p className="signup-title">Join The Waitlist</p>
         
         <form className="signup-form">
           <input

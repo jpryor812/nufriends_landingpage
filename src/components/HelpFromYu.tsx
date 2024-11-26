@@ -9,8 +9,9 @@ export default function HelpFromYu() {
         <Image
           src="/nufriends_demo_holder.svg"
           alt="NuFriends App Demo"
-          width={180}
-          height={400}
+          layout="responsive"
+          width={100} // Aspect ratio width
+          height={200} // Aspect ratio height
           className="demo-image"
         />
       </div>
