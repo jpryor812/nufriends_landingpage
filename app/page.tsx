@@ -19,13 +19,13 @@ export default function Home() {
       <Header />
       <HeroTitle />
       <WhatIsNufriends />
-      <EmailSignup />
+      <EmailSignup2 />
       <AnswerQuestions />
       <StartTheConversation />
       <HelpFromYu />
       <GrowingFriendships />
       <YuInRealWorld />
-      <EmailSignup2 />
+      <EmailSignup />
       <Whynufriends />
       <ChatWidget />
       <EmailSignup3 /> 

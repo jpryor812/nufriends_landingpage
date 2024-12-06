@@ -1,7 +1,12 @@
 export default function WhatIsNufriends() {
-    return (
-        <h2 className="nufriends-description">
-          We use AI to connect you with people who share your interests and values, but we don't leave you there. We're right by your side in every conversation to help you start and continue building those relationships. Scroll down to see how it works!👇
-        </h2>
-    )
-  }
+  return (
+      <h2 className="nufriends-description" style={{ 
+          display: 'flex', 
+          flexDirection: 'column', 
+          gap: '0.5rem' 
+      }}>
+          <span>Start and build friendships like never before, and feel supported every step of the way!</span>
+          <span>👇 Scroll down to see how it works! 👇</span>
+      </h2>
+  )
+}

@@ -13,6 +13,56 @@
   }
 }
 
+@keyframes colorWave {
+  0% {
+    background-color: #4CCfff;
+  }
+  50% {
+    background-color: #1CBBFF;
+  }
+  100% {
+    background-color: #4CCfff;
+  }
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-200%);
+    opacity: 0;
+  }
+  70% {
+    transform: translateX(35%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(200%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(-15%);
+    opacity: 1;
+  }
+  75% {
+    transform: translateX(10%);
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(-5%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 body {
   background: linear-gradient(
     to bottom,
@@ -24,7 +74,7 @@ body {
   );
   min-height: 100vh;
   background-size: 100% 300%;
-  animation: gradientAnimation 15s ease-in-out infinite alternate;
+  animation: gradientAnimation 12s ease-in-out infinite alternate;
 }
 .header-container{
   display: flex;
@@ -116,9 +166,12 @@ h2.nufriends-description {
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.2s;
   height: 2.5rem;
   font-size: .8rem;
+  
+  /* Animation properties */
+  animation: colorWave 4s infinite ease-in-out;
+  transition: transform 0.2s;
 }
 
 .signup-button:hover {
@@ -806,28 +859,41 @@ h2.nufriends-description {
     .header-container{
       display: flex;
       flex: row;
+      margin-left: 2rem;
+      margin-top: .5rem;
+      margin-bottom: -.5rem;
+
+    }
+    .header-title {
+      font-size: 2rem;
+      font-weight: 400;
+      color: #54b6f7;
+      font-family: 'Suez One', serif;
     }
     .hero-section {
       text-align: center;
       padding: .5rem .5rem;
     }
     .hero-title {
-      font-size: 4rem;
+      font-size: 3.75rem;
       margin-right: 300px;
       margin-left: 300px;
     }
     h2.nufriends-description {
-      font-size: 1.25rem;
+      font-size: 1.35rem;
       margin-right: 220px;
       margin-left: 220px;
+      color: #9c9c9c;
+      font-weight: 600;
     }
     .signup-container {
       max-width: 500px;
       margin: .25rem auto;
       padding: 1rem;
       text-align: center;
+      animation: slideFromLeft 1s 1s forwards;
+      opacity: 0;
     }
-    
     .signup-title {
       font-size: 2.25rem;
     }
@@ -860,17 +926,20 @@ h2.nufriends-description {
     }
     
     .signup-button {
-      background-color: #42aaff;
-      color: white;
-      padding: 0.25rem .5rem;
-      border: none;
-      border-radius: 8px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: background-color 0.2s;
-      height: 2.5rem;
-      font-size: .8rem;
-    }
+        background-color: #42aaff;
+        color: white;
+        padding: 0.25rem .25rem;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        height: 2.5rem;
+        font-size: .8rem;
+        
+        /* Animation properties */
+        animation: colorWave 4s infinite ease-in-out;
+        transition: transform .2s;
+      }
     
     .signup-button:hover {
       background-color: #3490dc;
@@ -888,7 +957,7 @@ h2.nufriends-description {
       display: flex;
       flex-direction: row;
       justify-content: center;
-      margin-top: 1rem;
+      margin-top: 4rem;
       margin-bottom: 4rem;
       margin-left: 18rem;
       margin-right: 18rem;
@@ -933,8 +1002,8 @@ h2.nufriends-description {
     }
     .chat-widget {
       position: fixed;
-      bottom: 1rem;
-      right: .75rem;
+      bottom: 2rem;
+      right: 1.75rem;
       z-index: 1000;
       font-family: Arial, sans-serif;
     }
@@ -949,6 +1018,8 @@ h2.nufriends-description {
       display: flex;
       align-items: center;
       gap: 0.25rem;
+      height: 3.5rem;
+      width: 7rem;
       box-shadow: 0 2px 12px rgba(0,0,0,0.15);
       transition: transform 0.2s;
     }
@@ -1028,9 +1099,9 @@ h2.nufriends-description {
       text-decoration: underline;
     }
     .chat-label {
-      font-size: .75rem;
+      font-size: 1rem;
       color: #ffffff;
-      font-weight: 500;
+      font-weight: 700;
       text-align: center;
     }
     .justin-image {
