@@ -100,6 +100,9 @@ export default function Footer() {
   
           {/* Bottom Bar */}
           <div className="footer-bottom">
+          <p className="cookie-notice">
+              Note: nufriends is only available in the US for now. Let us know if you sign up from outside the US and we will add you to the waitlist for international launch! The more users we have interest from, the sooner we will expand, so please sign up!
+            </p>
             <p className="cookie-notice">
               This site uses cookies. By continuing to use this website, you agree to their use.
               <a href="/cookies"> Learn More</a>

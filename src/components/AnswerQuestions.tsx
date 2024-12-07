@@ -7,30 +7,34 @@ export default function AnswerQuestions() {
 
   useEffect(() => {
     const options = {
-      threshold: [0.25, 0.5]
+      threshold: [0.33, 0.5]
     };
-
+  
+    // Store the current value of videoRef in a variable
+    const currentVideoRef = videoRef.current;
+  
     const handleIntersection = (entries: IntersectionObserverEntry[]) => {
       entries.forEach(entry => {
-        if (!videoRef.current) return;
+        if (!currentVideoRef) return;
         
-        if (entry.intersectionRatio >= 0.25) {
-          videoRef.current.play();
+        if (entry.intersectionRatio >= 0.33) {
+          currentVideoRef.play();
         } else {
-          videoRef.current.pause();
+          currentVideoRef.pause();
         }
       });
     };
-
+  
     const observer = new IntersectionObserver(handleIntersection, options);
-
-    if (videoRef.current) {
-      observer.observe(videoRef.current);
+  
+    if (currentVideoRef) {
+      observer.observe(currentVideoRef);
     }
-
+  
+    // Use the stored reference in cleanup
     return () => {
-      if (videoRef.current) {
-        observer.unobserve(videoRef.current);
+      if (currentVideoRef) {
+        observer.unobserve(currentVideoRef);
       }
     };
   }, []);

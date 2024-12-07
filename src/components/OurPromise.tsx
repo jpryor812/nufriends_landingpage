@@ -1,4 +1,4 @@
-// OurPromise.jsx
+/*
 const OurPromise = () => {
     return (
       <div className="promise-container">
@@ -15,3 +15,4 @@ const OurPromise = () => {
   };
   
   export default OurPromise;
+  */
