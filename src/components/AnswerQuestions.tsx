@@ -7,7 +7,7 @@ export default function AnswerQuestions() {
 
   useEffect(() => {
     const options = {
-      threshold: [0.33, 0.5]
+      threshold: [0.25, 0.5]
     };
   
     // Store the current value of videoRef in a variable
@@ -17,7 +17,7 @@ export default function AnswerQuestions() {
       entries.forEach(entry => {
         if (!currentVideoRef) return;
         
-        if (entry.intersectionRatio >= 0.33) {
+        if (entry.intersectionRatio >= 0.25) {
           currentVideoRef.play();
         } else {
           currentVideoRef.pause();
