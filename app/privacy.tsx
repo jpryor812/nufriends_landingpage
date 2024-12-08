@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
             <section id="introduction">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Introduction</h2>
               <p>
-                NuFriends ("we", "us", "our") operates nufriends.app and maintains a presence on various social media platforms. 
+                NuFriends (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) operates nufriends.app and maintains a presence on various social media platforms. 
                 This policy explains how we handle your data across all our platforms.
               </p>
             </section>

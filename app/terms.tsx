@@ -73,7 +73,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Disclaimers</h2>
               <ul className="list-disc pl-5 space-y-2">
-                <li>The service is provided "as is" without warranties of any kind</li>
+                <li>The service is provided &quot;as is&quot; without warranties of any kind</li>
                 <li>We make no guarantees about launch timeline or final feature set</li>
                 <li>We are not responsible for any damages arising from use of our service</li>
                 <li>We reserve the right to modify or terminate the service at any time</li>
