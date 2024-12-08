@@ -1,84 +1,74 @@
 import Image from 'next/image'
 
 export default function Footer() {
-    return (
-      <footer className="footer-container">
-        <div className="footer-content">
-          
-          {/* Main Footer Sections */}
-          <div className="footer-sections">
-            {/* Company Info */}
-            <div className="footer-section">
-          <h3>Connect</h3>
-          <div className="social-links">
-            <a 
-              href="https://x.com/nufriends" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="social-icon"
-            >
-              <Image
-                src="/X-icon.png"  // Put your icons in public/icons/
-                alt="X (Twitter)"
-                width={24}
-                height={24}
-              />
-            </a>
-            <a 
-              href="https://tiktok.com/@nufriends" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="social-icon"
-            >
-              <Image
-                src="/tiktok-logo.png"
-                alt="TikTok"
-                width={24}
-                height={24}
-              />
-            </a>
-            <a 
-              href="https://tiktok.com/@nufriends" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="social-icon"
-            >
-              <Image
-                src="/instagram-icon.png"
-                alt="Instagram"
-                width={24}
-                height={24}
-              />
-            </a>
-            <a 
-              href="https://tiktok.com/@nufriends" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="social-icon"
-            >
-              <Image
-                src="/youtube-icon.png"
-                alt="YouTube"
-                width={24}
-                height={24}
-              />
-            </a>
-            <a 
-              href="https://tiktok.com/@nufriends" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="social-icon"
-            >
-              <Image
-                src="/linkedin-icon.png"
-                alt="LinkedIn"
-                width={24}
-                height={24}
-              />
-            </a>
-          </div>
-        </div>
+  return (
+    <footer className="footer-container">
+      <div className="footer-content">
+        <div className="footer-sections">
+          <div className="footer-section">
+            <h3>Connect</h3>
+            <div className="social-links">
+              {/* Reddit */}
+              <a 
+                href="https://www.reddit.com/user/nufriends_app/"  // Update with your Reddit link
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Image
+                  src="/reddit-logo.svg"
+                  alt="Reddit"
+                  width={24}
+                  height={24}
+                />
+              </a>
+              
+              {/* TikTok */}
+              <a 
+                href="https://www.tiktok.com/@nufriends.app"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Image
+                  src="/tiktok-logo.png"
+                  alt="TikTok"
+                  width={24}
+                  height={24}
+                />
+              </a>
 
+              {/* Instagram */}
+              <a 
+                href="https://www.instagram.com/nufriends.app/"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Image
+                  src="/instagram-icon.png"
+                  alt="Instagram"
+                  width={24}
+                  height={24}
+                />
+              </a>
+
+              {/* YouTube */}
+              <a 
+                href="https://www.youtube.com/channel/UCCud5KMy_xe7smlF-OdYkPg"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="social-icon"
+              >
+                <Image
+                  src="/youtube-icon.png"
+                  alt="YouTube"
+                  width={24}
+                  height={24}
+                />
+              </a>
+            </div>
+          </div>
         <div className="footer-section">
               <h3>Contact</h3>
               <ul>
