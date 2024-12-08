@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-content">
         <div className="footer-sections">
           <div className="footer-section">
-            <h3>Follow us on your favorite social media platforms! We'll follow you back! 😊</h3>
+            <h3>Follow us on your favorite social media platforms! We&apos;ll follow you back! 😊</h3>
             <div className="social-links">
               {/* Reddit */}
               <a 
