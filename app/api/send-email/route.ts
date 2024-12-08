@@ -11,7 +11,7 @@ export async function POST(request: Request) {
 
     const msg = {
       to: email,
-      from: 'your-verified-sender@example.com', // Must be verified in SendGrid
+      from: 'justin@nufriends.app', // Must be verified in SendGrid
       subject: 'Welcome to NuFriends Waitlist!',
       text: 'Thank you for joining our waitlist friend!',
       html: '<strong>Thank you for joining our waitlist friend!</strong>',
