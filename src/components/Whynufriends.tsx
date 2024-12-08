@@ -10,7 +10,7 @@ const Whynufriends = () => {
   <div className="blog-container" >
     <h5 className="blog-title">Why We Built nufriends</h5>
       <p>
-      Many people highlight the “Loneliness Epidemic,” citing sources that over 50% of Americans feel lonely and consider none of their relationships meaningful. 
+      Many people highlight the “Loneliness Epidemic,” citing sources that over 50% of Americans feel lonely. 
       I strongly empathize with that cohort, as I have been a member of it for most of my life. 
       </p>
 
@@ -20,17 +20,17 @@ const Whynufriends = () => {
       </p>
 
       <p>
-        <em>I’m hoping that nufriends will be a rope for you to grab hold of and help pull you out of the depths of loneliness and isolation into a bright and beautiful world surrounded by people who empathize with you, know you, and love you. </em> 
+        <em>I’m hoping that nufriends will be a rope for you to grab hold of and help pull you out of the depths of loneliness and isolation into a bright and beautiful world surrounded by people who support you, know you, and love you. </em> 
       </p>
 
       <p>
-      Many people have built technologies to attempt to help you, and I’m not promising you nufriends will finally be that solution, but I believe it has a good chance.      
+      Many people have built apps to attempt to help you, and I’m not promising you nufriends will finally be that solution, but I believe it has a good chance.      
       </p>
 
       <p>
       Traditional friend-matching apps don’t continually guide or help build friendships. They find you a friend and leave you to figure it out for yourself. 
       It can be incredibly hard to put yourself out there, be authentic, or even think of something to say! 
-      This leaves the user scared, anxious, and disappointed that they couldn’t build that relationship. But you shouldn’t feel bad; building meaningful friendships online is hard.
+      This can leave people scared, anxious, and disappointed that they couldn’t build that relationship. But you shouldn’t feel bad; building meaningful friendships online is hard.
       </p>
 
       <p>
@@ -38,17 +38,18 @@ const Whynufriends = () => {
       </p>
 
       <p>
-      I’m hoping that nufriends is finally that solution for you. Once we match you with friends we believe you’d be compatible with, we don’t leave you.
+      <em>I’m hoping that nufriends is finally that solution for you. Once we match you with friends we believe you’d be compatible with, we don’t leave you.
       We stay right by your side to start the conversation for you and support you anytime with a new conversation topic, an engaging question, or to help remind you of something fascinating about yourself that you didn’t even know people would care about!
+      </em>
       </p>
 
       <p>
-      I can’t promise you’ll find five best friends on nufriends. What I can promise you is that we will give you the best chance out of every app you’ve tried to find those friendships.
+      I can’t promise you’ll find ten best friends on nufriends. What I can promise you is that we will give you the best chance out of every app you’ve tried to find those friendships.
       We will listen to you, we will help you, and if we have a large enough community, we will organize friends from around the world to meet in person and feel that meaningful connection face to face. 
       </p>
 
       <p>
-      I hear you all now, and will hear you as a member of nufriends. I’ve had some dark times in my life where I’ve experienced deep loneliness.   
+      I hear you all now, and will hear you as a member of nufriends. I’ve had some challenging moments in my life where I’ve experienced deep loneliness.   
       I understand how you feel, and it’s why I’m so passionate about helping you break free from this strong downward force of negativity and help you find some people to give you a hand and lift you out.
       </p>
 

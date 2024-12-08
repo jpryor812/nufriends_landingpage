@@ -15,7 +15,7 @@ export async function POST(request: Request) {
             email: 'justin@nufriends.app',
             name: 'Justin Pryor'
           },
-        subject: 'Welcome to NuFriends! 👋',
+        subject: 'Welcome to nufriends! 👋',
         text: 'We are so excited to have you!', // Plain text version
         html: `
           <div style="font-family: Arial, sans-serif; max-width: 700px; margin: 0 auto; padding: 12px;">
@@ -24,7 +24,7 @@ export async function POST(request: Request) {
                 <div style="margin-bottom: 20px; text-align: center;">
                     <img 
                         src="https://nufriends.app/nufriends_logo_final.png" 
-                        alt="NuFriends Logo" 
+                        alt="nufriends Logo" 
                         style="max-width: 80%; height: auto; border-radius: 8px;"
                 />
             </div>
@@ -55,13 +55,13 @@ export async function POST(request: Request) {
 
                     <div style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px; text-align: center;">
                 <p style="font-size: 14px; color: #666; margin-bottom: 15px;">
-                    Follow us on your favorite social media platforms!
+                    Follow us on your favorite social media platforms! We'll follow you back :)
                 </p>
                     
                 <p style="font-size: 14px; line-height: 1.6;">
                     <a href="https://tiktok.com/@nufriends.app" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">TikTok</a> • 
                     <a href="https://www.youtube.com/channel/UCCud5KMy_xe7smlF-OdYkPg" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">YouTube</a> • 
-                    <a href="https://reddit.com/r/https://www.reddit.com/user/General_Mulberry_276/.app" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">Reddit</a> • 
+                    <a href="https://www.reddit.com/user/nufriends_app/" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">Reddit</a> • 
                     <a href="https://instagram.com/nufriends.app" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">Instagram</a>
                  </p>
                 </div>
