@@ -27,7 +27,7 @@ export default function TermsOfService() {
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Service Description</h2>
               <p>
-                NuFriends provides a waitlist signup service for our upcoming social platform 
+                nufriends provides a waitlist signup service for our upcoming social platform 
                 designed to help users build meaningful friendships. By using our service, you 
                 agree to join our waitlist and receive updates about our launch and features.
               </p>

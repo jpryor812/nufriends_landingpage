@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
             <section id="introduction">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Introduction</h2>
               <p>
-                NuFriends (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) operates nufriends.app and maintains a presence on various social media platforms. 
+                nufriends (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) operates nufriends.app and maintains a presence on various social media platforms. 
                 This policy explains how we handle your data across all our platforms.
               </p>
             </section>
@@ -47,10 +47,10 @@ export default function PrivacyPolicy() {
               <h3 className="text-xl font-medium text-gray-900 mt-6 mb-2">Social Media Data</h3>
               <p>We maintain presence on:</p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>TikTok (@nufriends.app)</li>
-                <li>Instagram (@nufriends.app)</li>
+                <li>TikTok </li>
+                <li>Instagram </li>
                 <li>YouTube</li>
-                <li>Reddit (r/nufriends)</li>
+                <li>Reddit </li>
               </ul>
               <p className="mt-4">
                 When you interact with our social media:
@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
                 <li>Email: <a href="mailto:justin@nufriends.app" className="text-blue-500 hover:text-blue-600">justin@nufriends.app</a></li>
                 <li>You can request data access or deletion</li>
                 <li>You can opt out of communications</li>
-                <li>Response time: Within 2 business days</li>
+                <li>Response time: Within 1 business day</li>
               </ul>
             </section>
           </div>
