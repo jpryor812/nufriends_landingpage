@@ -16,13 +16,13 @@ export async function POST(request: Request) {
             name: 'Justin Pryor'
           },
         subject: 'Welcome to NuFriends! 👋',
-        text: 'Thank you for joining our waitlist!', // Plain text version
+        text: 'We are so excited to have you!', // Plain text version
         html: `
           <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
             <h1 style="color: #4A90E2; margin-bottom: 20px;">Welcome to NuFriends! 🎉</h1>
             
             <p style="font-size: 16px; line-height: 1.5; margin-bottom: 15px;">
-              Hey there friend! Thanks for joining our waitlist. We're excited to have you as part of our growing community! 
+              Hey there!We're so excited to have you as part of our growing community! 
               We're working hard to launch soon and will keep you updated on our progress.
             </p>
   
