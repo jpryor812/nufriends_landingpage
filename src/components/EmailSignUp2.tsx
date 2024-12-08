@@ -51,7 +51,7 @@ export default function EmailSignup2() {
       </form>
 
       {status === 'success' && (
-        <p className="text-green-500 mt-2">Thanks for joining our waitlist! Check your email for more info!</p>
+        <p className="text-green-500 mt-2">Thanks for joining our waitlist! Check your email for more information!</p>
       )}
       {status === 'error' && (
         <p className="text-red-500 mt-2">Something went wrong. Please try again.</p>

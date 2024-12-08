@@ -59,10 +59,10 @@ export async function POST(request: Request) {
                 </p>
                     
                 <p style="font-size: 14px; line-height: 1.6;">
-                    <a href="https://tiktok.com/@nufriends" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">TikTok</a> • 
-                    <a href="https://youtube.com/@nufriends" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">YouTube</a> • 
-                    <a href="https://reddit.com/r/nufriends" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">Reddit</a> • 
-                    <a href="https://instagram.com/nufriends" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">Instagram</a>
+                    <a href="https://tiktok.com/@nufriends.app" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">TikTok</a> • 
+                    <a href="https://www.youtube.com/channel/UCCud5KMy_xe7smlF-OdYkPg" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">YouTube</a> • 
+                    <a href="https://reddit.com/r/https://www.reddit.com/user/General_Mulberry_276/.app" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">Reddit</a> • 
+                    <a href="https://instagram.com/nufriends.app" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">Instagram</a>
                  </p>
                 </div>
           </div>
