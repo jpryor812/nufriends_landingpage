@@ -18,19 +18,19 @@ export async function POST(request: Request) {
         subject: 'Welcome to NuFriends! 👋',
         text: 'We are so excited to have you!', // Plain text version
         html: `
-          <div style="font-family: Arial, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px;">
-            <h1 style="color: #42ADE2; margin-bottom: 20px;">Welcome to NuFriends! 🎉</h1>
+          <div style="font-family: Arial, sans-serif; max-width: 700px; margin: 0 auto; padding: 12px;">
+            <h1 style="color: #42ADE2; margin-bottom: 4px;">Welcome to NuFriends! 🎉</h1>
             
                 <div style="margin-bottom: 20px; text-align: center;">
                     <img 
                         src="https://nufriends.app/nufriends_logo_final.png" 
                         alt="NuFriends Logo" 
-                        style="max-width: 100%; height: auto; border-radius: 8px;"
+                        style="max-width: 80%; height: auto; border-radius: 8px;"
                 />
             </div>
 
             <p style="font-size: 16px; line-height: 1.5; margin-bottom: 15px;">
-              Hey there!We're so excited to have you as part of our growing community! 
+              Hey there! We're so excited to have you as part of our growing community! 
               We're working hard to launch soon and will keep you updated on our progress.
             </p>
   
