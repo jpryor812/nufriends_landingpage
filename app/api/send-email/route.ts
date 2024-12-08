@@ -18,9 +18,17 @@ export async function POST(request: Request) {
         subject: 'Welcome to NuFriends! 👋',
         text: 'We are so excited to have you!', // Plain text version
         html: `
-          <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
-            <h1 style="color: #4A90E2; margin-bottom: 20px;">Welcome to NuFriends! 🎉</h1>
+          <div style="font-family: Arial, sans-serif; max-width: 700px; margin: 0 auto; padding: 20px;">
+            <h1 style="color: #42ADE2; margin-bottom: 20px;">Welcome to NuFriends! 🎉</h1>
             
+                <div style="margin-bottom: 20px; text-align: center;">
+                    <img 
+                        src="https://nufriends.app/nufriends_logo_final.png" 
+                        alt="NuFriends Logo" 
+                        style="max-width: 100%; height: auto; border-radius: 8px;"
+                />
+            </div>
+
             <p style="font-size: 16px; line-height: 1.5; margin-bottom: 15px;">
               Hey there!We're so excited to have you as part of our growing community! 
               We're working hard to launch soon and will keep you updated on our progress.
@@ -33,7 +41,7 @@ export async function POST(request: Request) {
                 <p style="font-size: 16px; line-height: 1.5; margin-bottom: 20px;">
                 You can fill in the form here:
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSf1rJO30KcQQYY_TiuMUIQ6g5ZHtElne5xVab20U8s9z3ndGA/viewform?usp=sf_link" 
-                    style="color: #4A90E2; font-weight: bold; text-decoration: none;">
+                    style="color: #42ADE2; font-weight: bold; text-decoration: none;">
                     Take our quick questionnaire →
                     </a>
                 </p>
