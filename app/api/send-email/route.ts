@@ -31,11 +31,11 @@ export async function POST(request: Request) {
 
             <p style="font-size: 16px; line-height: 1.5; margin-bottom: 15px;">
               Hey there! We're so excited to have you as part of our growing community! 
-              We're working hard to launch soon and will keep you updated on our progress.
+              We're working hard to launch our app soon and will keep you updated on our progress.
             </p>
   
             <p style="font-size: 16px; line-height: 1.5; margin-bottom: 15px;">
-               As you may know, we get to know you to match you with friends you'll build fantastic relationships with. To do so, we ask our users to answer a few questions about themselves. It would help us tremendously in finding your ideal friends if you could take five minutes to complete the questionnaire!
+               As you may know, we get to know you to match you with friends you'll build fantastic relationships with. To do so, we ask our users to answer a few questions about themselves when they first open the app. To ensure you don't have to wait more than just a few seconds to find your ideal friends, you can take five minutes now to complete the onboarding questionnaire. That way, you'll be ready to message your new friends as soon as you join!
             </p>
   
                 <p style="font-size: 16px; line-height: 1.5; margin-bottom: 20px;">
@@ -52,6 +52,19 @@ export async function POST(request: Request) {
                 Talk soon!<br>
                 Justin
                 </p>
+
+                    <div style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px; text-align: center;">
+                <p style="font-size: 14px; color: #666; margin-bottom: 15px;">
+                    Follow us on your favorite social media platforms!
+                </p>
+                    
+                <p style="font-size: 14px; line-height: 1.6;">
+                    <a href="https://tiktok.com/@nufriends" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">TikTok</a> • 
+                    <a href="https://youtube.com/@nufriends" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">YouTube</a> • 
+                    <a href="https://reddit.com/r/nufriends" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">Reddit</a> • 
+                    <a href="https://instagram.com/nufriends" style="color: #4A90E2; text-decoration: underline; margin: 0 5px;">Instagram</a>
+                 </p>
+                </div>
           </div>
         `,
       }
