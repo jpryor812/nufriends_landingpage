@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react"
 import localFont from "next/font/local";
+import Header from "../src/components/Header";  // Changed from @/components/Header
 import "./globals.css";
 
 const geistSans = localFont({
@@ -16,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "nufriends | Find Five New Friends in Five Minutes",
-  description: "Use nufriends to find new meaningful friendships everyday with tools that help you start and continue conversations. No need to worry about the cold start to a conversation or not knowing what to say. Feel socailly superpowered with nufriends, and never feel alone again.",
+  description: "Use nufriends to find new meaningful friendships everyday with tools that help you start and continue conversations. No need to worry about the cold start to a conversation or not knowing what to say. Feel socially superpowered with nufriends, and never feel alone again.",
   keywords: ["make friends", "find friends", "friendship app", "social connection", "meet new people", "finding friends for socially anxious people", "finding friends for introverts", "finding friends for loners, making friends, making friends in a new city,"],
   icons: {
     icon: 'https://nufriends.app/nufriends_logo_favicon.png', // 16x16 or 32x32 px
@@ -47,7 +48,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <Header />  {/* Add the Header component here */}
+        <main>      {/* Wrap children in main tag */}
+          {children}
+        </main>
         <Analytics />
       </body>
     </html>
