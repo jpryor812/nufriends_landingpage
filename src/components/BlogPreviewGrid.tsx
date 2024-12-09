@@ -13,24 +13,6 @@ const BlogPreviewGrid = () => {
       slug: "improve-at-having-conversations",
       image: "/Reddit_post_conversation_ability2.png"
     },
-    {
-      title: "HOW TO TELL IF SHORTNESS OF BREATH IS FROM ANXIETY",
-      date: "Jul 27, 2024",
-      excerpt: "Shortness of breath can be unsettling and has various causes, from physical issues to mental ones. Anxiety is a significant factor, sometimes appearing in subtle yet noticeable ways. Determining if your shortness of breath is from anxiety or something more serious can...",
-      slug: "shortness-of-breath-anxiety",
-    },
-    {
-      title: "CAN ADDERALL CAUSE ANXIETY? EVERYTHING YOU NEED TO KNOW",
-      date: "Jun 15, 2024",
-      excerpt: "Understanding the relationship between Adderall and anxiety...",
-      slug: "adderall-anxiety",
-    },
-    {
-      title: "DOES VAPING CAUSE ANXIETY?",
-      date: "May 28, 2024",
-      excerpt: "As vaping gains popularity, so do concerns about its effects on mental health...",
-      slug: "vaping-anxiety",
-    }
   ];
 
   return (
