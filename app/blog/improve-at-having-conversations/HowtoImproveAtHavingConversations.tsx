@@ -33,9 +33,9 @@ const HowToImproveAtHavingConversations = () => {
         <p>Throughout my life, I&apos;ve made the same observation — certain people seem to have a natural gift for conversation. They effortlessly ask engaging questions, deepen discussions, and navigate awkward pauses with ease. For many of us, this ability can seem almost genetic; if you don&apos;t naturally have it, you might believe you never will.</p>
 
         <h2>The Practice Paradox We All Face</h2>
-        <p>Like any skill, conversation abilities can be improved with practice. Take Timothée Chalamet, for example, as the poster mentioned. His articulate nature comes from thousands of interviews and countless conversations with friends, family, directors, colleagues, fans, and reporters. He's had extensive practice, which explains his natural eloquence.</p>
+        <p>Like any skill, conversation abilities can be improved with practice. Take Timothée Chalamet, for example, as the poster mentioned. His articulate nature comes from thousands of interviews and countless conversations with friends, family, directors, colleagues, fans, and reporters. He&apos;s had extensive practice, which explains his natural eloquence.</p>
 
-        <p>This creates an interesting paradox: if you don't have many conversations, you won't excel at them, which can make initiating new conversations feel intimidating! How can we possibly win??</p>
+        <p>This creates an interesting paradox: if you don&apos;t have many conversations, you won&apos;t excel at them, which can make initiating new conversations feel intimidating! How can we possibly win??</p>
 
         <h2>Other Methods of Improvement</h2>
           <p>An alternative best pratice is replaying conversations in your head, which I often do as a negative reflection in retrospect of what I should&apos;ve said to not sound stupid or to sound funnier, which I&apos;m sure all of us do. Those reflections do add up and give some incremental progress, but of course it is not as good as the real thing.</p>
@@ -53,7 +53,7 @@ const HowToImproveAtHavingConversations = () => {
         <p>This creates the highest-frequency practice environment possible for improving conversation skills. Think of it as having a conversation coach right on your shoulder, providing immediate feedback and suggestions whenever you need them.</p>
 
         <h2>The Power of Immediate Feedback</h2>
-        <p>The quick feedback loop our AI provides is invaluable for developing better conversation skills, both within the app and in real-world situations. It's like having a personal conversation trainer available 24/7. I encourage you to try it out and see if you improve your conversation skills while making new everlasting friendships. I hope it helps you!</p>
+        <p>The quick feedback loop our AI provides is invaluable for developing better conversation skills, both within the app and in real-world situations. It&apos;s like having a personal conversation trainer available 24/7. I encourage you to try it out and see if you improve your conversation skills while making new everlasting friendships. I hope it helps you!</p>
 
           <EmailSignup2 />
       </div>
