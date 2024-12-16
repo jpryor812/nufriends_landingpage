@@ -956,7 +956,6 @@ h2.nufriends-description {
       margin-right: 2.5rem;
       max-width: 280px; /* Reduced from whatever it was before (probably 400px) */
       width: 100%;
-
     }
     .signup-container {
       max-width: 500px;
@@ -1096,7 +1095,7 @@ h2.nufriends-description {
       text-align: center;
     }
     .blog-container {
-      max-width: 800px;  /* limits width for better readability */
+      max-width: 700px;  /* limits width for better readability */
       margin: 0 auto;    /* centers the container */
       padding: 20px 40px; /* adds space around the content */
     }
