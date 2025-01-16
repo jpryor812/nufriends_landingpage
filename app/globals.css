@@ -1095,7 +1095,7 @@ h2.nufriends-description {
       text-align: center;
     }
     .blog-container {
-      max-width: 700px;  /* limits width for better readability */
+      max-width: 50vw;  /* limits width for better readability */
       margin: 0 auto;    /* centers the container */
       padding: 20px 40px; /* adds space around the content */
     }
@@ -1107,6 +1107,7 @@ h2.nufriends-description {
       margin-bottom: 12px; /* adds space below the heading */
       text-align: center;  /* centers the heading */
       font-family: 'Suez One', serif;
+
     
     }
     
